@@ -2,6 +2,8 @@
 
 **THE ART OF PRESENCE.** Experiência digital da coleção Signature Series (HALO, EMBER, ECLIPSE).
 
+**Site no ar:** https://auraformen.vercel.app
+
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · Motion · Lucide.
 
 ## Rodar
@@ -13,7 +15,7 @@ npm run dev                  # http://localhost:3000
 npm run build && npm start   # produção
 ```
 
-Deploy recomendado: Vercel (importar o repositório e cadastrar as variáveis do `.env.example`).
+Deploy: Vercel (projeto `auraformen`), conectado a este repositório. Cada push em `main` publica automaticamente.
 
 ## Rotas
 
