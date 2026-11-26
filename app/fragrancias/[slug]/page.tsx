@@ -83,7 +83,7 @@ export default async function FragrancePage({ params }: Props) {
         <div className="container-x grid w-full gap-10 md:grid-cols-[1fr_0.9fr] md:items-center lg:gap-16">
           <div className="order-2 md:order-1">
             <Eyebrow>Signature Series · Body Splash 200 ml</Eyebrow>
-            <TextReveal as="h1" immediate className="mt-6 font-display text-[clamp(4rem,15vw,11rem)] font-semibold uppercase leading-[0.85] tracking-[-0.04em]" lines={[f.name]} />
+            <TextReveal as="h1" immediate className="mt-6 font-display text-[clamp(4rem,15vw,11rem)] font-semibold uppercase leading-[0.92] tracking-[-0.04em]" lines={[f.name]} />
             <p className="t-h3 mt-6 text-accent">{f.tagline}</p>
             <p className="t-lead mt-5 max-w-md">{f.story[1]}</p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">

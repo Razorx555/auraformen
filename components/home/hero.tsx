@@ -131,7 +131,7 @@ export function Hero() {
           </motion.p>
 
           <h1 id="hero-title" className="mt-5 lg:mt-8">
-            <span className="block overflow-hidden">
+            <span className="block overflow-hidden py-[0.12em] -my-[0.12em]">
               <motion.span
                 initial={reduce ? false : { y: "100%" }}
                 animate={{ y: 0 }}
@@ -141,12 +141,12 @@ export function Hero() {
                 O mundo conhece seu rosto.
               </motion.span>
             </span>
-            <span className="mt-2 block overflow-hidden pb-[0.08em] lg:mt-4">
+            <span className="mt-1 -mb-[0.14em] block overflow-hidden pb-[0.14em] pt-[0.16em] lg:mt-2">
               <motion.span
                 initial={reduce ? false : { y: "100%" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 1.1, ease, delay: d + 0.33 }}
-                className="block font-display text-[clamp(2.6rem,5.7vw,5.9rem)] font-semibold uppercase leading-[0.9] tracking-[-0.045em]"
+                className="block font-display text-[clamp(2.6rem,5.7vw,5.9rem)] font-semibold uppercase leading-[0.98] tracking-[-0.045em]"
               >
                 Mas qual é a<br />
                 sua <span className="text-chrome">aura?</span>

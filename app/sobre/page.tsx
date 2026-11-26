@@ -26,7 +26,7 @@ export default function AboutPage() {
     <>
       <PageHeader
         eyebrow="AURA — The art of presence"
-        title={["Presença não se explica.", <span key="a" className="text-chrome">Se sente.</span>]}
+        title={["Presença não", "se explica.", <span key="a" className="text-chrome">Se sente.</span>]}
       />
 
       <section className="relative overflow-hidden py-20 md:py-32">

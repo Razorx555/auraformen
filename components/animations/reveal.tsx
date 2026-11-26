@@ -63,7 +63,7 @@ export function TextReveal({
       transition={{ staggerChildren: 0.09, delayChildren: delay }}
     >
       {lines.map((line, i) => (
-        <span key={i} className="block overflow-hidden pb-[0.06em] -mb-[0.06em]">
+        <span key={i} className="-my-[0.14em] block overflow-hidden py-[0.14em]">
           <motion.span
             className={`block ${lineClassName ?? ""}`}
             variants={{ hidden: { y: "105%" }, show: { y: "0%", transition: { duration: 1, ease } } }}
