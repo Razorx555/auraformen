@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/home/hero";
+import { ManifestoScroll } from "@/components/home/manifesto-scroll";
 import { SignatureSeries } from "@/components/home/signature-series";
 import { CollectionFocus } from "@/components/home/collection-focus";
 import { ComparisonSection, DetailsSection, QuizSection, ShopSection, UniverseSection } from "@/components/home/sections";
@@ -21,6 +22,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <ManifestoScroll />
       <SignatureSeries />
       <QuizSection />
       <CollectionFocus />

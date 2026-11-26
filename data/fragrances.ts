@@ -32,6 +32,16 @@ export const fragranceImages: Record<FragranceId, ImageAsset> = {
   },
 };
 
+/**
+ * Loops cinematográficos gerados a partir das imagens oficiais (Higgsfield,
+ * primeiro e último quadro = foto oficial). Deixe null para usar só a imagem.
+ */
+export const fragranceVideos: Record<FragranceId, string | null> = {
+  halo: "/videos/halo.mp4",
+  ember: "/videos/ember.mp4",
+  eclipse: "/videos/eclipse.mp4",
+};
+
 export const fragrances: Record<FragranceId, Fragrance> = {
   halo: {
     id: "halo",

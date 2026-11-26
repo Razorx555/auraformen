@@ -5,6 +5,7 @@ import { useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { FragranceVisual } from "@/components/products/fragrance-visual";
+import { AmbientVideo } from "@/components/products/ambient-video";
 import { AddToBag } from "@/components/products/add-to-bag";
 import { Eyebrow, Price } from "@/components/ui/brand";
 import { fragrances, fragranceOrder } from "@/data/fragrances";
@@ -114,6 +115,7 @@ export function CollectionFocus() {
                   transition={{ duration: 0.9, ease }}
                 >
                   <FragranceVisual id={active} sizes="(max-width: 768px) 90vw, 460px" className="absolute inset-0" />
+                  <AmbientVideo id={active} className="absolute inset-0 h-full w-full object-cover" />
                 </motion.div>
               </AnimatePresence>
             </div>

@@ -7,6 +7,7 @@ import { fragranceImages, fragrances, fragranceOrder, isFragranceId } from "@/da
 import { getProduct } from "@/data/products";
 import { storeConfig } from "@/data/store-config";
 import { FragranceVisual } from "@/components/products/fragrance-visual";
+import { AmbientVideo } from "@/components/products/ambient-video";
 import { Gallery } from "@/components/products/gallery";
 import { NotesPanel, PurchasePanel } from "@/components/products/purchase-panel";
 import { Reveal, TextReveal } from "@/components/animations/reveal";
@@ -97,6 +98,7 @@ export default async function FragrancePage({ params }: Props) {
           <div className="order-1 md:order-2">
             <div className="chrome-border relative mx-auto aspect-[4/5] w-[78%] max-w-[480px] overflow-hidden rounded-t-[999px] rounded-b-[32px] shadow-[0_60px_140px_-40px_var(--aura-accent)] md:w-full">
               <FragranceVisual id={slug} preload sizes="(max-width: 768px) 78vw, 40vw" className="absolute inset-0" />
+              <AmbientVideo id={slug} className="absolute inset-0 h-full w-full object-cover" eager />
             </div>
           </div>
         </div>

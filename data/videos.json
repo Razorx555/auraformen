@@ -1,0 +1,6 @@
+{
+  "_comment": "Loops gerados na Higgsfield a partir das fotos oficiais. Baixados para /public/videos no build (scripts/fetch-videos.mjs). Para trocar, substitua a URL ou coloque o .mp4 em public/videos/ com o mesmo nome.",
+  "eclipse": "https://d8j0ntlcm91z4.cloudfront.net/user_3MWzaCVxeWnLg6Q0QGxh8X40tLS/hf_20261126_034638_dd507728-b911-47df-88ce-78ce04233151.mp4",
+  "halo": "https://d8j0ntlcm91z4.cloudfront.net/user_3MWzaCVxeWnLg6Q0QGxh8X40tLS/hf_20261126_034917_fc796d1d-13c6-4eb4-bf5b-5417a27b94f6.mp4",
+  "ember": "https://d8j0ntlcm91z4.cloudfront.net/user_3MWzaCVxeWnLg6Q0QGxh8X40tLS/hf_20261126_034918_bc455746-6b01-4254-b19d-ec0ed4839f85.mp4"
+}

@@ -56,6 +56,10 @@ Em `public/images/` — tratadas apenas em formato, tamanho e recorte (sem alter
 
 Para trocar uma imagem, substitua o arquivo mantendo o nome. Novas fotos (frontal, lateral, detalhe, ambiente) e vídeo entram em `images` / `videoUrl` de cada produto em `data/products.ts` — a galeria passa a exibir miniaturas e gestos automaticamente.
 
+## Vídeos cinematográficos
+
+Loops de 5 s gerados na Higgsfield (Seedance 2.0 Mini, 720p, sem áudio) a partir das fotos oficiais, com a própria foto como primeiro e último quadro — o frasco fica parado e só o cenário se move. As URLs ficam em `data/videos.json`; o script `scripts/fetch-videos.mjs` baixa os arquivos para `public/videos/` antes de cada build. Se o download falhar, o site mostra a foto oficial. Os vídeos não tocam com movimento reduzido ou economia de dados e pausam fora da tela.
+
 ## Quiz — regra de pontuação
 
 Cada resposta soma 1 ponto à fragrância correspondente; vence a mais pontuada. Com 3 perguntas o único empate possível é 1-1-1: nesse caso vale a resposta da **etapa 3** ("Como você prefere expressar sua presença?"). Sem IA, sem coleta de dados pessoais.

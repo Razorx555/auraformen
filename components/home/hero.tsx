@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { motion, useMotionValue, useReducedMotion, useScroll, useSpring, useTransform } from "motion/react";
 import { ArrowRight, ArrowDown } from "lucide-react";
 import { FragranceVisual } from "@/components/products/fragrance-visual";
+import { AmbientVideo } from "@/components/products/ambient-video";
 import { Magnetic } from "@/components/ui/interactive";
 import { useIntroDelay } from "@/components/animations/use-intro-delay";
 import type { FragranceId } from "@/lib/types";
@@ -106,6 +107,7 @@ export function Hero() {
                         className="absolute inset-0"
                         decorative
                       />
+                      <AmbientVideo id={p.id} className="absolute inset-0 h-full w-full object-cover" eager={center} />
                       {!center && <div className="absolute inset-0 bg-ink/25" />}
                     </div>
                     <p className="t-eyebrow mt-3 text-center text-[0.6rem] text-steel lg:text-[0.65rem]">{p.label}</p>

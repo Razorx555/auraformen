@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { FragranceVisual } from "@/components/products/fragrance-visual";
+import { AmbientVideo } from "@/components/products/ambient-video";
 import { Spotlight } from "@/components/ui/interactive";
 import { Reveal, TextReveal } from "@/components/animations/reveal";
 import { Eyebrow } from "@/components/ui/brand";
@@ -80,6 +81,7 @@ export function SignatureSeries() {
                           className="absolute inset-0"
                           imgClassName="transition-transform duration-[1.4s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]"
                         />
+                        <AmbientVideo id={id} className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.4s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]" />
                         <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_78%,#101114_100%)]" />
                         <div className="absolute inset-0 opacity-0 transition-opacity duration-700 group-hover:opacity-100 bg-[radial-gradient(70%_50%_at_50%_100%,color-mix(in_srgb,var(--aura-accent)_30%,transparent),transparent)]" />
                       </div>
